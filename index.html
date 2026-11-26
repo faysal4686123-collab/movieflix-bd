@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MovieFlix BD — খুঁজুন আপনার পছন্দের সিনেমা এবং দেখুন অফিসিয়াল ট্রেলার।">
+  <title>MovieFlix BD | Movie Trailers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">M</span> MovieFlix <b>BD</b></a>
+  <nav><a href="#home">হোম</a><a href="#movies">মুভি</a><a href="#about">আমাদের সম্পর্কে</a></nav>
+  <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+</header>
+<main id="home">
+  <section class="hero">
+    <div class="hero-content"><span class="eyebrow">MOVIE TRAILER HUB</span><h1>Discover Your<br><em>Next Movie</em></h1>
+      <p>আপনার পছন্দের সিনেমা খুঁজুন এবং অফিসিয়াল ট্রেলার দেখুন।</p>
+      <a class="primary" href="#movies">মুভি দেখুন <span>→</span></a>
+    </div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="poster poster-one">CINEMA<br><strong>UNIVERSE</strong></div><div class="poster poster-two">MOVIE<br><strong>NIGHT</strong></div><div class="play">▶</div></div>
+  </section>
+  <section class="movie-section" id="movies">
+    <div class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>Popular Movie Trailers</h2></div>
+      <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="মুভি খুঁজুন..." aria-label="Search movies"></div>
+    </div>
+    <div class="filters" id="filters"><button class="active" data-category="All">সব</button><button data-category="Hollywood">Hollywood</button><button data-category="Bollywood">Bollywood</button><button data-category="Bangla">Bangla</button><button data-category="South Indian">South Indian</button><button data-category="Korean">Korean</button></div>
+    <div class="movie-grid" id="movieGrid"></div><p class="empty" id="empty" hidden>কোনো মুভি পাওয়া যায়নি। অন্য নাম দিয়ে সার্চ করুন।</p>
+  </section>
+  <section class="about" id="about"><span class="eyebrow">ABOUT MOVIEFLIX BD</span><h2>আপনার সিনেমার জগৎ</h2><p>MovieFlix BD একটি movie discovery website। এখানে সিনেমা খুঁজে অফিসিয়াল ট্রেলার বা YouTube-এ ট্রেলার সার্চ করতে পারবেন। এই সাইটে পূর্ণ সিনেমা হোস্ট করা হয় না।</p></section>
+</main>
+<footer><a class="brand" href="#home"><span class="brand-mark">M</span> MovieFlix <b>BD</b></a><span>© <span id="year"></span> MovieFlix BD</span></footer>
+<script src="script.js"></script>
+</body></html>
